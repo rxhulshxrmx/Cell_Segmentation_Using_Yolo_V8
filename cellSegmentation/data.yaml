@@ -1,0 +1,13 @@
+train: /Users/rahulsharma/Developer/Python/cellSegmentation/cellSegmentation/train/images
+val: /Users/rahulsharma/Developer/Python/cellSegmentation/cellSegmentation/valid/images
+test: /Users/rahulsharma/Developer/Python/cellSegmentation/cellSegmentation/test/images
+
+nc: 1
+names: ['cell']
+
+roboflow:
+  workspace: rahul-sharma-x30hn
+  project: cellsegmentation-zpkzz
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rahul-sharma-x30hn/cellsegmentation-zpkzz/dataset/1
